@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3d22"/>
+      <stop offset="100%" style="stop-color:#1a6b3c"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf6ee"/>
+      <stop offset="100%" style="stop-color:#f0e8d5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Decorative dots pattern -->
+  <circle cx="50" cy="50" r="3" fill="white" opacity="0.08"/>
+  <circle cx="150" cy="80" r="2" fill="white" opacity="0.06"/>
+  <circle cx="700" cy="60" r="3" fill="white" opacity="0.08"/>
+  <circle cx="750" cy="150" r="2" fill="white" opacity="0.06"/>
+
+  <!-- Crescent moon top right -->
+  <circle cx="700" cy="80" r="45" fill="#c9a227" opacity="0.9"/>
+  <circle cx="720" cy="65" r="37" fill="#1a6b3c" opacity="1"/>
+  <!-- Star -->
+  <polygon points="748,35 752,47 764,47 754,55 758,67 748,59 738,67 742,55 732,47 744,47" fill="#c9a227" opacity="0.9"/>
+
+  <!-- Main card -->
+  <rect x="80" y="70" width="640" height="360" rx="20" fill="url(#card)" opacity="0.97"/>
+
+  <!-- Green header bar on card -->
+  <rect x="80" y="70" width="640" height="90" rx="20" fill="#1a6b3c"/>
+  <rect x="80" y="130" width="640" height="30" fill="#1a6b3c"/>
+
+  <!-- App title in Arabic -->
+  <text x="400" y="108" font-family="serif" font-size="32" fill="#c9a227"
+        text-anchor="middle" dominant-baseline="middle">&#x645;&#x62D;&#x627;&#x633;&#x628; &#x627;&#x644;&#x632;&#x643;&#x627;&#x629; &#x627;&#x644;&#x625;&#x633;&#x644;&#x627;&#x645;&#x64A;</text>
+
+  <!-- Tabs row -->
+  <rect x="95" y="165" width="90" height="32" rx="16" fill="#1a6b3c"/>
+  <text x="140" y="181" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" dominant-baseline="middle">&#x632;&#x643;&#x627;&#x629; &#x627;&#x644;&#x645;&#x627;&#x644;</text>
+  <rect x="195" y="165" width="90" height="32" rx="16" fill="#e8e0d0"/>
+  <text x="240" y="181" font-family="sans-serif" font-size="11" fill="#666" text-anchor="middle" dominant-baseline="middle">&#x630;&#x647;&#x628; &#x648;&#x641;&#x636;&#x629;</text>
+  <rect x="295" y="165" width="90" height="32" rx="16" fill="#e8e0d0"/>
+  <text x="340" y="181" font-family="sans-serif" font-size="11" fill="#666" text-anchor="middle" dominant-baseline="middle">&#x627;&#x644;&#x62A;&#x62C;&#x627;&#x631;&#x629;</text>
+  <rect x="395" y="165" width="90" height="32" rx="16" fill="#e8e0d0"/>
+  <text x="440" y="181" font-family="sans-serif" font-size="11" fill="#666" text-anchor="middle" dominant-baseline="middle">&#x627;&#x644;&#x632;&#x631;&#x627;&#x639;&#x629;</text>
+  <rect x="495" y="165" width="90" height="32" rx="16" fill="#e8e0d0"/>
+  <text x="540" y="181" font-family="sans-serif" font-size="11" fill="#666" text-anchor="middle" dominant-baseline="middle">&#x627;&#x644;&#x641;&#x637;&#x631;</text>
+
+  <!-- Form fields -->
+  <rect x="110" y="215" width="260" height="40" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="350" y="235" font-family="sans-serif" font-size="11" fill="#999" text-anchor="end" dominant-baseline="middle">&#x646;&#x642;&#x62F;&#x64A;&#x629; &#x644;&#x62F;&#x64A;&#x643; (TND)</text>
+  <text x="125" y="235" font-family="sans-serif" font-size="12" fill="#333" dominant-baseline="middle">5,000</text>
+
+  <rect x="390" y="215" width="260" height="40" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="635" y="235" font-family="sans-serif" font-size="11" fill="#999" text-anchor="end" dominant-baseline="middle">&#x648;&#x62F;&#x627;&#x626;&#x639; &#x628;&#x646;&#x643;&#x64A;&#x629; (TND)</text>
+  <text x="405" y="235" font-family="sans-serif" font-size="12" fill="#333" dominant-baseline="middle">10,000</text>
+
+  <rect x="110" y="270" width="260" height="40" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="125" y="290" font-family="sans-serif" font-size="12" fill="#333" dominant-baseline="middle">3,000</text>
+
+  <rect x="390" y="270" width="260" height="40" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="405" y="290" font-family="sans-serif" font-size="12" fill="#333" dominant-baseline="middle">325</text>
+
+  <!-- Calculate button -->
+  <rect x="110" y="330" width="540" height="50" rx="12" fill="#1a6b3c"/>
+  <text x="380" y="355" font-family="serif" font-size="18" fill="white"
+        text-anchor="middle" dominant-baseline="middle">&#x2BC;&#x0020;&#x627;&#x62D;&#x633;&#x628; &#x627;&#x644;&#x632;&#x643;&#x627;&#x629;</text>
+
+  <!-- Result badge (bottom) -->
+  <rect x="200" y="395" width="400" height="28" rx="14" fill="#d4edda" stroke="#1a6b3c" stroke-width="1.5"/>
+  <text x="400" y="409" font-family="sans-serif" font-size="12" fill="#1a6b3c"
+        text-anchor="middle" dominant-baseline="middle">&#x2705; &#x632;&#x643;&#x627;&#x629; &#x627;&#x644;&#x645;&#x627;&#x644; &#x2014; 462.5 TND</text>
+</svg>
